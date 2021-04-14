@@ -14,6 +14,10 @@
   margin-bottom: 50px;
 }
 
+#receipt {
+  display: none;
+}
+
 .cont2 {
   background-color: #AED2A6; 
   height: 250px;
