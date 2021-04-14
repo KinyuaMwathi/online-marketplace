@@ -8,10 +8,55 @@
   <title>Snowline Restaurant Online Marketplace</title>
 </head>
 <body>
-  <div class="container cont1">
+  <div class="container-fluid cont1">
     <h1 id="heading1">Snowline Restaurant Online Marketplace</h1>
   </div>
-  <div class="container cont2">
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Order your package by filling this form.</h2>
+        <div class="form">
+          <div class="form-group">
+            <label for="fullName">Full name</label>
+            <input id="fullName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input id="address" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="drinks">Drinks</label>
+            <select class="form-control" id="drinks">
+              <option>Juice</option>
+              <option>Soda</option>
+              <option>Wine</option>
+              <option>Water</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="dish">Dish</label>
+            <select class="form-control" id="dish">
+              <option>Pizza</option>
+              <option>Pasta</option>
+              <option>Burger</option>
+              <option>Hot Dog</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fruit">Fruits</label>
+            <select class="form-control" id="fruit">
+              <option>Treetomato</option>
+              <option>Passion</option>
+              <option>Orange</option>
+              <option>Apple</option>
+            </select>
+          </div>
+          <button id="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <div class="container-fluid cont2">
     <div class="footer">
       <p id="footerText">&copy; 2021 Snowline Restaurant Online Marketplace</p>
     </div>
